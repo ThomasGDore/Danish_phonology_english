@@ -1,0 +1,206 @@
+%\documentclass[titlepage]{article}
+%\author{Thomas Dore \bigskip LIN 323L \smallskip Fall 2019}
+%\title{The Impact of Danish on the English of Danes speaking English}
+
+%\begin{document}
+%\maketitle
+
+%\end{document}
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+\title{The Impact of Danish Phonology on the English productions of native Danish speakers}
+\author{Thomas Dore}
+\date{LIN 323L Fall 2019}
+
+\usepackage{natbib}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{tikz}
+\usepackage{siunitx}
+\usepackage{biblatex}
+\usepackage{hyperref}
+\addbibresource{bib}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+%\begin{abstract}
+%We measured the threshold for chaotic motion of a damped driven oscillator, and then we observed chaotic motion. We isolated variables of the damped driven oscillator in order to measure the parameters of the system, specifically, the fundamental frequency of the pendulum, damping as a function of the distance between a copper plate and some magnets, and the driven torque as a function of the damping function and the voltage input. From these parameters, we were able to derive the threshold of chaotic motion for the system. Then, we were able to observe chaotic motion in the system.
+%\end{abstract}
+
+%%%
+%   %Title page with name, semester, course, and title of your paper
+    %At least 4 pages of content (shorter papers will get marked down)
+%   %There is no maximum length - feel free to write more, I will read it
+    %No bibliography required, but if you cite sources, use APA style (use author-year citation, no footnote citation); list of references should not be on a separate page, but simply after the end of the text
+    %Structure your paper similarly to the oral presentation:
+%   %introduction
+%   %research question or hypothesis
+    %description of your analysis (i.e. "Data and methods")
+    %results/findings
+    %conclusion
+%No need to include your transcripts - but you should feel free to cite from your interviews if what your participants said is important to your argument
+%%%
+
+
+\bigskip
+
+\section{Introduction}
+%\subsection{Experimental Motivation}
+
+\bigskip
+    
+  \quad It has been demonstrated that when a speaker learns a new language after the critical period, they will bring their phonological resources from their primary languages with them, influencing their productions in a new language. The aim of this research project was to replicate these general findings, and to look more specifically into the phonological borrowings from Danish Phonology into the English of Native Danish speakers who learned English non-natively. For this project we will be comparing Standard Danish with the General American phonological system.
+
+
+    
+%\subsection{Theoretical Background}
+    
+ %   \bigskip
+    
+   
+    
+    \bigskip
+    
+
+   
+\section{Experimental Setup and Procedure}
+    
+    \bigskip
+    
+   \quad To explore this question, I interviewed two native Danes who learned English after the critical period. The two Danes were both young men, aged 22 and 23. They were both college students studying abroad at the University of Texas at Austin from their home university in Denmark. Both students study business and finance. I will refer to the speakers henceforth with the acronyms DS1 and DS2 standing for "Danish Speaker", and, 1 and 2.
+   
+    \bigksip   
+    \bigskip
+    
+  I conducted a series of recordings with each student in a moderately sound-proofed room. The recordings were done separately, so as to isolate the potential influence of other variables. With each speaker, I recorded two word-lists, the reading of a short story, and then an interview. The word-lists and the short story each, individually, did not last for more than five minutes, but the interviews each had a duration of approximately 30 minutes. As a note of potential improvement, there was an interruption in the interview with DS2. In the future, a more secure location will be utilized in order to avoid such a mishap. However, it strikes me as unlikely that the brief interruption had much impact on the speaker's productions, given the plethora of other data that impact the average values produced.
+    
+    \bigskip
+    
+    Using these recordings I produced transcriptions for them in the software application PRAAT. I then took these transcriptions and the paired audio file and used DARLA to get formant values on the stressed value for most words that are not stops. These values were put into a table which I was able to analyze using some simple scripting funcitons in R. These scripts and the subsequent graphs that were produced allowed for the subsequent analyses to take place.
+    
+    
+\section{Data, Analysis, Results}
+    \bigskip
+  
+  \quad First, as a note, we are attempting to demonstrate a relationship between the Standard Danish phonological system and the phonological spaces of DS1 and DS2 that are not present in the General American English phonological system. To do this we will analyze the vowel productions of DS1 and DS2 in order to find at least one vowel that is more similar to the Standard Danish phonological system than it is to the General American English phonological system. This, of course, is not evidence enough to \emph{prove} our hypothesis, but it will provide strong reasoning to believe it is true. Another important factor is whether or not the evidence is consistent across the two speakers. Even if it \emph{is} consistent, that still does not qualify as total proof, but it makes for stronger evidence.
+  
+ \bigskip
+ 
+    We will first analyze the General American English phonological system in comparison with the Standard Danish phonological system. We are using the General American English phonological system and not the Southern American English phonological system because the speakers were not trained in Southern American English, and I do not believe that the speakers few months in Texas have greatly impacted their English productions towards a more Southern American phonological system. This is, however, a point that could be researched further, utilizing both this data and new data collected from other non-native speakers entering America for the first time, and observing how long it takes for the regional dialect to have an impact on their speech productions. Below, both aforementioned phonological systems are displayed.
+    
+    \bigskip
+    
+    
+   
+    
+    \bigskip
+
+    \begin{figure1}
+    \centering    
+    \includegraphics[scale=.25]{GAE.png}
+   
+    \caption{Figure 1: The vowel space for monophthongs in General American English (Wells,  John  C..  1982).}
+    \par
+    \end{figure1}
+
+    \bigskip 
+    
+     \bigskip
+
+    \begin{figure2}
+    \centering    
+    \includegraphics[scale=.25]{SD.png}
+   
+    \caption{Figure 2: The vowel space for monophthongs in Standard Danish (Grønnum, Nina. 1998).}
+    \par
+    \end{figure2}
+
+    \bigskip 
+    
+    The clearest difference I can see between the two (in regards to vowels present in both spaces), is the raising of the \emph{/$\varepsilon$/} vowel from the English vowel space to the Danish vowel space. This vowel \emph{/$\varepsilon$/} will be referred to as the DRESS vowel from this point forward in this paper. Based on these charts, we should expect to see a raising of the DRESS vowel in both Danish Speakers' English productions. In evaluating both speakers' productions, we do see the DRESS raising. In addition, we also see a dramatic and unexpected fronting of the \emph{/u/} vowel (heretofore referenced as the GOOSE vowel). 
+    
+       \bigskip
+
+    \begin{figure3}
+    \centering    
+    \includegraphics[scale=.25]{DS_both.png}
+   
+    \caption{Figure 3: The vowel system for both DS1 and DS2 as two separate charts.}
+    \par
+    \end{figure3}
+
+    \bigskip 
+    
+    Now, as mentioned, the DRESS raising is expected. We see it clearly across both speakers, and this is good evidence for the impact of the Danish phonological system on the Danish speakers' American English productions. We can see, if we overlay the two vowel spaces, that the DRESS raising is consistent across both speakers, as well.
+    
+    \bigskip
+    
+     \bigskip
+
+    \begin{figure4}
+    \centering    
+    \includegraphics[scale=.25]{DS_both_2.png}
+   
+    \caption{Figure 4: An overlay of the vowel systems of DS1 and DS2 in one chart.}
+    \par
+    \end{figure4}
+
+    \bigskip 
+    
+    The DRESS productions are nearly overlapping in the above chart. This is good evidence of a single variable effecting both speakers productions. However, it is worth noting that the GOOSE vowels are both very fronted and nearly overlapping as well. This GOOSE fronting was unexpected given the general Standard Danish vowel space we evaluated. 
+    
+    \bigskip
+    
+    I looked further into the GOOSE productions of DS1 and DS2. Upon an auditory evaluation of the recordings with DS1, I was able to confirm (to my own, mostly untrained, ears) what sounded like fronting of the GOOSE vowel. I then took a subsection of the DS2's total productions and, using R, displayed the actual words associated with the GOOSE productions onto the chart of DS2's vowel space. I was quite surprised to find that the GOOSE value actually took on a wide variety of values for DS2.
+    
+      \bigskip
+
+    \begin{figure5}
+    \centering    
+    \includegraphics[scale=.4]{u.png}
+   
+    \caption{Figure 5: A sample of DS2's GOOSE productions}
+    \par
+    \end{figure5}
+
+    \bigskip 
+
+The reason for this wide spread of F2 values for the Danish Speakers' productions is not easily rationalized given what we have to work with. One possible explanation is the influence of another Danish monopthong, particularly the \emph{{\o}} may be having an impact on the GOOSE productions of our speakers. I detail some directions for further research on this question in the conclusion. What is noteworthy is that both speakers have nearly the same average values for their GOOSE productions, which is evidence that whatever has effected one to have a variety of GOOSE values, it is likely effecting the other as well.
+  
+
+\section{Conclusion}
+ 
+ \quad We see good evidence that the Danish Phonological system has an impact on the English spoken by native Danish speakers who learned English after their critical period. We see clearly that the DRESS vowel is raised in both of our subjects, and it seems probable that this is due to the influence of the Danish Phonological system on their speech productions. This is evinced further by the fact that we see a raised DRESS vowel in the Danish Phonological system. There is also an average value for a fronted GOOSE production. I put forward the hypothesis that the \emph{/{\o}/} vowel in the Danish Phonological system is having an impact on DS1 and DS2's GOOSE productions, but I cannot develop that hypothesis further at this time. We can conclude that their GOOSE productions are markedly different from General American English and consistent across both speakers.
+ 
+ \bigskip
+ 
+    Some further research could be conducted to attempt to solve this GOOSE mystery. One could look into the environments of different GOOSE productions in DS1 and DS2 (or similar speakers). This may help isolate why and when the productions are sometimes very front, and sometimes very back. Another direction would be for a bilingual speaker of Danish and English to evaluate the GOOSE productions and see if there are any cognates within Danish in the sample word set. It may be that the Danish speakers are relying more heavily on Danish phonology for words that closely mirror their native language. 
+
+\bigskip
+\bigskip
+
+\section{Bibliography}
+\bigskip
+
+\quad Wells, John C. (1982). Accents of English. Volume 1: An Introduction (pp. i–xx, 1–278), Volume 3: Beyond the British Isles (pp. i–xx, 467–674). Cambridge University Press. ISBN 0-52129719-2, 0-52128541-0. 
+\bigskip
+
+
+\bigskip
+\par
+Grønnum, Nina (1998), "Illustrations of the IPA: Danish", Journal of the International Phonetic Association, 28 (1 & 2): 99–105, doi:10.1017/s0025100300006290
+\bigskip
+\par
+
+
+
+
+\end{document}
